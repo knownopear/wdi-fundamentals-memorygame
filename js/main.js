@@ -12,8 +12,10 @@ console.log("User flipped " + cardsInPlay[1]);
 
 if(cardsInPlay.length === 2){
 	if(cardsInPlay[0] === cardsInPlay[1]){
-		alert("You've found a match!")
+		//alert("You've found a match!")
+		console.log("You've found a match!")
 	} else{
-		alert("Sorry, try again.")
+		//alert("Sorry, try again.")
+		console.log("Sorry, try again!")
 	}
 }
